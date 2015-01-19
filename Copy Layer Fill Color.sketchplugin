@@ -6,6 +6,10 @@
 
 var layer = selection[0];
 var fill = layer.style().fills().firstObject();
-var fillColor = fill.color().hexValue().toString();
-clipboard.set(fillColor);
-[doc showMessage:"Successfully copied layer color hex value: " + fillColor + " to Clipboard"]
+if (fill != null) {
+  var fillColor = fill.color().hexValue().toString();
+  clipboard.set(fillColor);
+  [doc showMessage:"Successfully copied layer color hex value: " + fillColor + " to Clipboard"]
+} else {
+  [doc showMessage:"Please check if the selected layer has fill color applied."]
+}

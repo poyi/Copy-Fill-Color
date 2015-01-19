@@ -1,4 +1,4 @@
-// Shortcut to copy selected layer's border color (shift cmd b)
+// Shortcut to copy selected layer's border fill color (shift cmd b)
 
 #import '/copy_clipboard.js'
 
@@ -6,6 +6,10 @@
 
 var layer = selection[0];
 var border = layer.style().borders().firstObject();
-var borderColor = border.color().hexValue().toString();
-clipboard.set(borderColor);
-[doc showMessage:"Successfully copied border color hex value:" + borderColor + " to Clipboard"]
+if (border !=null) {
+  var borderColor = border.color().hexValue().toString();
+  clipboard.set(borderColor);
+  [doc showMessage:"Successfully copied border color hex value:" + borderColor + " to Clipboard"]
+} else {
+  [doc showMessage:"Please check if the selected layer has border color applied."]
+}
