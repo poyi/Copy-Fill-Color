@@ -8,4 +8,4 @@ var layer = selection[0];
 var border = layer.style().borders().firstObject();
 var borderColor = border.color().hexValue().toString();
 clipboard.set(borderColor);
-[doc showMessage:"Copied border color hex value: " + borderColor + " to Clipboard"]
+[doc showMessage:"Successfully copied border color hex value:" + borderColor + " to Clipboard"]

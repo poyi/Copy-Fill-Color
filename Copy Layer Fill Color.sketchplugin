@@ -8,4 +8,4 @@ var layer = selection[0];
 var fill = layer.style().fills().firstObject();
 var fillColor = fill.color().hexValue().toString();
 clipboard.set(fillColor);
-[doc showMessage:"Copied layer fill color hex value: " + fillColor + " to Clipboard"]
+[doc showMessage:"Successfully copied layer color hex value: " + fillColor + " to Clipboard"]
