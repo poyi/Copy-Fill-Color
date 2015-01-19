@@ -3,7 +3,7 @@ This is a [Sketch 3](http://bohemiancoding.com/sketch/) Plugin that provides sho
 
 <h3>Install</h3>
 
-<b>Method 1: Download file directly</b>
+<b>Method 1: Download Directly</b>
 
 1. Download this Plugin
 2. Drag and drop the plugin file to <b>Library ▸ Containers ▸ com.bohemiancoding.sketch3 ▸ Data ▸ Library ▸ Application Support ▸ com.bohemiancoding.sketch3 ▸ Plugins</b> (If you're running Mac Store Version)
@@ -17,11 +17,11 @@ This is a [Sketch 3](http://bohemiancoding.com/sketch/) Plugin that provides sho
 
 <h3>Using the Plugin</h3>
 
-<b>Copy layer fill color</b>
+<b>Copy Layer Fill Color</b>
 
 Select a layer with fill color and press <b>Shift + Command + f</b>. The hex code should now be copied to your clipboard and ready to be pasted.
 
-<b>Copy Border fill color</b>
+<b>Copy Border Fill Color</b>
 
 Select a layer with border color and press <b>Shift + Command + b</b>. The hex code should now be copied to your clipboard and ready to be pasted.
 
