@@ -1,0 +1,11 @@
+// Shortcut to copy current object fill color (shift cmd f)
+
+#import '/copy_clipboard.js'
+
+// Retrieve layer fill color and copy to clipboard
+
+var layer = selection[0];
+var fill = layer.style().fills().firstObject();
+var fillColor = fill.color().hexValue().toString();
+clipboard.set(fillColor);
+[doc showMessage:"Copied layer fill color hex value: " + fillColor + " to Clipboard"]
