@@ -6,10 +6,11 @@ This is a [Sketch 3](http://bohemiancoding.com/sketch/) Plugin that provides sho
 <b>Method 1: Download file directly</b>
 
 1. Download this Plugin
-2. Drag and drop the plugin file to Library ▸ Containers ▸ com.bohemiancoding.sketch3 ▸ Data ▸ Library ▸ Application Support ▸ com.bohemiancoding.sketch3 ▸ Plugins (If you're running Mac Store Version)
+2. Drag and drop the plugin file to <b>Library ▸ Containers ▸ com.bohemiancoding.sketch3 ▸ Data ▸ Library ▸ Application Support ▸ com.bohemiancoding.sketch3 ▸ Plugins</b> (If you're running Mac Store Version)
 3. The shortcut should now be available under the Plugin's menu in Sketch
 
 <b>Method 2: Using Sketch Toolbox</b>
+
 1. Download and install [Sketch Toolbox](http://sketchtoolbox.com/), which is a simple Sketch plugin manager
 2. Search "Copy Fill Color" and click install
 3. Shortcut should now be available in Sketch
