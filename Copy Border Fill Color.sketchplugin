@@ -1,4 +1,4 @@
-// Shortcut to copy current object's border color (shift cmd b)
+// Shortcut to copy selected layer's border color (shift cmd b)
 
 #import '/copy_clipboard.js'
 

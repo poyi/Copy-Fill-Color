@@ -1,4 +1,4 @@
-// Shortcut to copy current object fill color (shift cmd f)
+// Shortcut to copy selected layer's fill color (shift cmd f)
 
 #import '/copy_clipboard.js'
 
