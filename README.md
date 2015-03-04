@@ -29,4 +29,4 @@ Select a layer with border color and press <b>Shift + Command + b</b>. The hex c
 
 <b>Copy Text Color</b>
 
-Select a text object and press <b>Shift + Command + t</b>. The hex code should now be copied to your clipboard and ready to be pasted.
+Select a text object and press <b>Shift + Command + x</b>. The hex code should now be copied to your clipboard and ready to be pasted.
