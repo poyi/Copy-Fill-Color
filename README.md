@@ -26,3 +26,7 @@ Select a layer with fill color and press <b>Shift + Command + f</b>. The hex cod
 Select a layer with border color and press <b>Shift + Command + b</b>. The hex code should now be copied to your clipboard and ready to be pasted.
 
 <i>Note that the Shift + Command + f overwrites the Sketch default enter full screen shortcut, you can set your own shortcut by editing the plugin file to avoid conflict.<i>
+
+<b>Copy Text Color</b>
+
+Select a text object and press <b>Shift + Command + t</b>. The hex code should now be copied to your clipboard and ready to be pasted.

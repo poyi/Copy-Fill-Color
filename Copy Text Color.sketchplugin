@@ -1,0 +1,18 @@
+// Shortcut to copy selected text's color (shift cmd x)
+
+#import '/copy_clipboard.js'
+
+// Retrieve text color and copy to clipboard
+
+if ([selection count] == 0) {
+  [doc showMessage: "Please select an element"]
+} else {
+  var layer = selection[0];
+  if (layer.textColor) {
+    var hexValue = layer.textColor().hexValue().toString();
+    clipboard.set(hexValue);
+    [doc showMessage: "Successfully copied text color hex value: " + hexValue + " to Clipboard"]
+  } else {
+    [doc showMessage:"Please select a text element"]
+  }
+}
