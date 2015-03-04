@@ -9,7 +9,7 @@ var border = layer.style().borders().firstObject();
 if (border !=null) {
   var borderColor = border.color().hexValue().toString();
   clipboard.set(borderColor);
-  [doc showMessage:"Successfully copied border color hex value:" + borderColor + " to Clipboard"]
+  [doc showMessage:"Successfully copied border color hex value: " + borderColor + " to Clipboard"]
 } else {
   [doc showMessage:"Please check if the selected layer has border color applied."]
 }
