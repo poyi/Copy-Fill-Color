@@ -1,14 +1,12 @@
 // Shortcut to copy selected layer's fill color (shift cmd f)
 
-#import '/copy_clipboard.js'
-
-// Retrieve layer fill color and copy to clipboard
-
 var layer = selection[0];
 var fill = layer.style().fills().firstObject();
 if (fill != null) {
   var fillColor = fill.color().hexValue().toString();
-  clipboard.set(fillColor);
+  var pasteBoard = NSPasteboard.generalPasteboard();
+  pasteBoard.clearContents()
+  pasteBoard.writeObjects([fillColor]);
   [doc showMessage:"Successfully copied layer color hex value: " + fillColor + " to Clipboard"]
 } else {
   [doc showMessage:"Please check if the selected layer has fill color applied."]

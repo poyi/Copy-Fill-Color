@@ -1,14 +1,12 @@
 // Shortcut to copy selected layer's border fill color (shift cmd b)
 
-#import '/copy_clipboard.js'
-
-// Retrieve border fill color and copy to clipboard
-
 var layer = selection[0];
 var border = layer.style().borders().firstObject();
 if (border !=null) {
   var borderColor = border.color().hexValue().toString();
-  clipboard.set(borderColor);
+  var pasteBoard = NSPasteboard.generalPasteboard();
+  pasteBoard.clearContents()
+  pasteBoard.writeObjects([borderColor]);
   [doc showMessage:"Successfully copied border color hex value: " + borderColor + " to Clipboard"]
 } else {
   [doc showMessage:"Please check if the selected layer has border color applied."]
