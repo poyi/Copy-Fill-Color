@@ -5,7 +5,7 @@ if ([selection count] == 0) {
 } else {
   var layer = selection[0];
   if (layer.textColor) {
-    var hexValue = layer.textColor().hexValue().toString();
+    var hexValue = layer.textColor().immutableModelObject().hexValue().toString();
     var pasteBoard = NSPasteboard.generalPasteboard();
     pasteBoard.clearContents()
     pasteBoard.writeObjects([hexValue]);

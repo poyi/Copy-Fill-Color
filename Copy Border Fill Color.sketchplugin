@@ -3,7 +3,7 @@
 var layer = selection[0];
 var border = layer.style().borders().firstObject();
 if (border !=null) {
-  var borderColor = border.color().hexValue().toString();
+  var borderColor = border.color().immutableModelObject().hexValue().toString();
   var pasteBoard = NSPasteboard.generalPasteboard();
   pasteBoard.clearContents()
   pasteBoard.writeObjects([borderColor]);

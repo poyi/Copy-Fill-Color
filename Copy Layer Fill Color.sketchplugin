@@ -3,7 +3,7 @@
 var layer = selection[0];
 var fill = layer.style().fills().firstObject();
 if (fill != null) {
-  var fillColor = fill.color().hexValue().toString();
+  var fillColor = fill.color().immutableModelObject().hexValue().toString();
   var pasteBoard = NSPasteboard.generalPasteboard();
   pasteBoard.clearContents()
   pasteBoard.writeObjects([fillColor]);

@@ -6,7 +6,7 @@ This is a [Sketch](http://bohemiancoding.com/sketch/) Plugin that provides short
 <b>Method 1: Download Directly</b>
 
 1. Download this Plugin
-2. Drag and drop the plugin file to <b>Library ▸ Containers ▸ com.bohemiancoding.sketch3 ▸ Data ▸ Library ▸ Application Support ▸ com.bohemiancoding.sketch3 ▸ Plugins</b> (If you're running Mac Store Version)
+2. Double clicking the plugin file to automatically install, or drag and drop the plugin file to <b>Library ▸ Containers ▸ com.bohemiancoding.sketch3 ▸ Data ▸ Library ▸ Application Support ▸ com.bohemiancoding.sketch3 ▸ Plugins</b> (If you're running Mac Store Version)
 3. The shortcut should now be available under the Plugin's menu in Sketch
 
 <b>Method 2: Using Sketch Toolbox</b>
@@ -23,10 +23,10 @@ Select a layer with fill color and press <b>Shift + Command + f</b>. The hex cod
 
 <b>Copy Border Fill Color</b>
 
-Select a layer with border color and press <b>Shift + Command + b</b>. The hex code should now be copied to your clipboard and ready to be pasted.
+Select a layer with border color and press <b>Shift + Command + b</b>. Paste anywhere you see fit.
 
-<i>Note that the Shift + Command + f overwrites the Sketch default enter full screen shortcut, you can set your own shortcut by editing the plugin file to avoid conflict.<i>
+<i>Note that the Shift + Command + f overwrites the Sketch default enter full screen shortcut, you can set your own shortcut by editing the plugin file at the top to avoid conflict. e.g. (shift cmd f) -> (shift cmd o) <i>
 
 <b>Copy Text Color</b>
 
-Select a text object and press <b>Shift + Command + x</b>. The hex code should now be copied to your clipboard and ready to be pasted.
+Select a text object and press <b>Shift + Command + x</b>. Paste away!
