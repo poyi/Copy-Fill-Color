@@ -1,3 +1,5 @@
+<h1>***Only works on Sketch 3: Please see the new version for Sketch 4 https://github.com/poyi/CopyColor</h1>
+
 <h3>Copy Fill Color Sketch Plugin</h3>
 This is a [Sketch](http://bohemiancoding.com/sketch/) Plugin that provides shortcut for copying a layer's fill color (with shift + command + f) or border's fill color (with shift + command + b) to clipboard. If you need to quickly grab the hex color code of either the layer fill color or border color within Sketch and paste it somewhere else, then this plugin may save you some time.
 
